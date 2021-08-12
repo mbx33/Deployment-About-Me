@@ -1,0 +1,12 @@
+* {
+    text-align: center;
+}
+
+.headline {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.subtitles {
+    color: blue; 
+    text-shadow: 1px 1px 1px #1C6EA4;   
+}

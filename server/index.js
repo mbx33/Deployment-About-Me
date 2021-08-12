@@ -3,9 +3,14 @@ const path = require('path');
 
 const app = express();
 
+
+
+app.use(express.static('client'))
+
+
 //This is used when deploying an app 
 app.get('/', function (req, res ) {
-    res.sendFile(path.join(__dirname, '../index.html'))
+    res.sendFile(path.join(__dirname, '../client/index.html'))
 });
 
 
