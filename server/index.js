@@ -5,7 +5,7 @@ const app = express();
 
 //This is used when deploying an app 
 app.get('/', function (req, res ) {
-    res.sendFile(path.join(__dirname, '../frontEnd/index.html'))
+    res.sendFile(path.join(__dirname, '../index.html'))
 });
 
 
