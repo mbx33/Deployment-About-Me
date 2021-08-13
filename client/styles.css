@@ -1,12 +1,95 @@
-* {
-    text-align: center;
+
+body {
+    background-color: #D0E4F5;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: -10px -28px;  
 }
 
 .headline {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em; 
     font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    background: #A44D21;
+    width: 15em;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0;
+    margin-bottom: 4%;  
 }
 
 .subtitles {
-    color: blue; 
-    text-shadow: 1px 1px 1px #1C6EA4;   
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em; 
+    color: rgb(6, 6, 27);   
 }
+
+.paragraphs {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border: 3px inset #1C6EA4;
+    border-radius: 0px 0px 40px 0px;
+}
+
+h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navBar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;  
+}
+
+.mainPhoto {
+    margin-left: 40%;
+    margin-right: auto;
+    width: 8em; 
+}
+
+footer {
+    margin-left: 1em;
+    margin-right: auto;
+}
+
+.favList {
+    border-top: 8px ridge #A44D21;
+    border-right: 8px ridge #A44D21;
+    border-left: 8px ridge #A44D21;
+    border-radius: 0px 0px 40px 40px;
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+}    
+
+/* section {
+    margin: 20px auto;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.navBtn {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+a {
+    color: darkblue;
+}
+
+a:visited {
+    color: red;
+} */
